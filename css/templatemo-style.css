@@ -216,7 +216,8 @@ body {
 .templatemo-nav li a {
   color: white;
   font-weight: 300;
-  padding: 15px 35px;
+  padding: 15px 15px;
+  line-height: 1;
   width: 124px;
   display: inline-block;
   box-sizing: border-box;
@@ -877,7 +878,7 @@ ol.flex-control-nav { display: none; }
  }
  .templatemo-nav li a {
    padding: 15px 20px;
-   width: 85px;
+   width: 155px;
  }
  .templatemo-welcome {
    margin-top: 55px;
