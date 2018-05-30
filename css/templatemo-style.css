@@ -212,11 +212,12 @@ body {
   list-style: none;
   float: left;
   text-transform: uppercase;
+  text-shadow: 0 -1px 5px rgba(0,0,0,0.9);
 }
 .templatemo-nav li a {
   color: white;
-  font-weight: 300;
-  padding: 15px 5px;
+  font-weight: 500;
+  padding: 15px 10px;
   line-height: 1;
   width: 124px;
   display: inline-block;
@@ -225,7 +226,7 @@ body {
 }
 .templatemo-nav li a:hover,
 .templatemo-nav li .active {
-  color: #b53636;
+  color: #ff5757;
   background: url(../img/nav-underline.png) center 80% no-repeat;
 }
 .mobile-menu-icon { display: none; }
@@ -846,7 +847,7 @@ ol.flex-control-nav { display: none; }
    max-width: 560px;
  }
  .templatemo-nav li a {
-   /*padding: 15px 28px;*/
+   padding: 15px 5px;
    width: 106px;
  }
  .templatemo-top-section {
@@ -877,7 +878,7 @@ ol.flex-control-nav { display: none; }
    max-width: 440px;
  }
  .templatemo-nav li a {
-   /*padding: 15px 20px;*/
+   padding: 15px 5px;
    width: 85px;
    font-size: 10px;
  }
@@ -936,7 +937,12 @@ ol.flex-control-nav { display: none; }
  .templatemo-submit-btn { width: 100%; }
  .services-container-inner { margin-bottom: 50px; }
 }
-
+@media screen and (max-width: 784px) {
+ .templatemo-nav li a {
+   width: 206px;
+   font-size: 14px;
+ }
+}
 @media screen and (max-width: 767px) {
   .templatemo-top-section {
     background-size: cover;
