@@ -181,8 +181,8 @@ http://www.templatemo.com/tm-463-motor
 	  
 	  <script src="//news.yandex.ru/ru/auto5.utf8.js" charset="utf-8"></script><script>(function(w,rubric){var data=w[rubric];if(!data||!data.length){return;}function formatDate(ts){var d=new Date(ts*1000);return d.getHours()+':'+('0'+d.getMinutes()).substr(-2);}var html='';data.sort(function(a,b){return a.date==b.date?a.time<b.time?1:a.time>b.time?-1:0:a.date<b.date?1:a.date>b.date?-1:void 0});for(var i=0;i<data.length;i++){var item=data[i];html+='
 	  <div>
-	  <h3><a href="'+item.url+'" target="_blank">'+item.title+'</a></h3>
-	  <p>'+item.date+'&nbsp;'+item.time+'</p>
+	  <span class="ya-news__title"><a href="'+item.url+'" target="_blank">'+item.title+'</a></span>
+	  <span class="ya-news__date">'+item.date+'&nbsp;'+item.time+'</span>
 	  </div>
 	  <div class="ya-news__description">'+item.descr+'</div>';}html+='
 	  <div class="ya-news__title"><a href="//news.yandex.ru/" target="_blank">Яндекс.Новости</a></div>
