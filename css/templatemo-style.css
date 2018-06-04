@@ -1050,6 +1050,7 @@ ol.flex-control-nav { display: none; }
 @media screen and (max-width: 500px) {
   .templatemo-site-name {
     font-size: 20px;
+	padding-top: 5px;
     /*padding-top: 80px;*/
   }
 }
