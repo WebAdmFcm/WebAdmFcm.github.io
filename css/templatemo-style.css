@@ -1049,8 +1049,8 @@ ol.flex-control-nav { display: none; }
 
 @media screen and (max-width: 500px) {
   .templatemo-site-name {
-    font-size: 40px;
-    padding-top: 80px;
+    font-size: 20px;
+    /*padding-top: 80px;*/
   }
 }
 
