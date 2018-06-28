@@ -1,0 +1,159 @@
+* {
+	border: none;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	font-family: Myriad;
+	font-size: 16px;
+	line-height: 26px
+}
+
+a {text-decoration: none; color: black;}
+a:hover b {text-decoration: underline;}
+img {margin: 6px;}
+p {margin-bottom: 22px; position: relative;}
+ul {margin-left: 32px; position: relative;}
+
+.fl {float: left;}
+.fr {float: right;}
+.clr {clear: both;}
+.tc {text-align: center;}
+.f20 {font-size: 18px;}
+.f24 {font-size: 24px; line-height: 36px;}
+.w200 {width: 200px;}
+
+.b {font-family: MyriadBold; position: relative;}
+.i {font-family: MyriadItalic; position: relative;}
+.ui {font-family: MyriadItalic; text-decoration: underline;}
+.bi {font-family: MyriadBoldItalic; color: black; position: relative;}
+.bui {font-family: MyriadBoldItalic; text-decoration: underline; color: black; position: relative;}
+
+
+@font-face {
+	font-family: "MyriadBold";
+	src: url(../fonts/MyriadPro-Bold.eot);
+	src: url(../fonts/MyriadPro-Bold.eot?#iefix) format("embedded-opentype"),
+	 url(../fonts/MyriadPro-Bold.otf) format("opentype");
+}
+@font-face {
+	font-family: "Myriad";
+	src: url(../fonts/MyriadPro-Regular.eot); /*IE 9*/
+	src: url(../fonts/MyriadPro-Regular.eot?#iefix) format("embedded-opentype"),
+		url(../fonts/MyriadPro-Regular.otf) format("opentype");
+}
+@font-face {
+	font-family: "MyriadItalic";
+	src: url(../fonts/MyriadPro-It.eot); /*IE 9*/
+	src: url(../fonts/MyriadPro-It.eot?#iefix) format("embedded-opentype"),
+		url(../fonts/MyriadPro-It.otf) format("opentype");
+}
+@font-face {
+	font-family: "MyriadBoldItalic";
+	src: url(../fonts/MyriadPro-SemiboldIt.eot); /*IE 9*/
+	src: url(../fonts/MyriadPro-SemiboldIt.eot?#iefix) format("embedded-opentype"),
+		url(../fonts/MyriadPro-SemiboldIt.otf) format("opentype");
+}
+body {
+	width: 857px;
+	margin: 0 auto;
+	background: url(../img/bg.png) center top repeat-y #fcfefb;
+}
+
+.head-title {
+	width: 858px;
+	height: 60px;
+	margin-top: 45px;
+	margin-bottom: 54px;
+	background: url(../img/title.png) no-repeat;
+}
+
+.title-item {
+	width: 100%;
+	height: 169px;
+	margin: 0 auto;
+}
+.title {
+	width: 200px;
+	height: 169px;
+	background: url(../img/course.png) center no-repeat;
+	margin: 0 auto;
+}
+.title-text{
+	font-size: 16pt;
+	padding-top: 184px;
+}
+
+.cover {
+	
+	padding: 16px 26px;
+	position: relative;
+}
+.content {
+	width: 100%;
+	margin: 10px auto;
+	padding: 16px 26px;
+	color: #3c4145;
+	position: relative;
+	text-align: left;
+}
+.content img {
+	position: relative;
+}
+.transparecy {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: white;
+	opacity: 0.90;
+}
+.article {
+	border: 1px solid gray;
+}
+.content-items {
+	padding-left: 26px;
+	font-family: MyriadBold;
+	position: relative;
+	text-align: left;
+}
+.content-items a {
+	padding-left: 12px;
+	font-family: Myriad;
+	text-decoration: none;
+	opacity: 1;
+}
+.content-items a:hover {
+	text-decoration: underline;
+}
+
+.prev {
+	width: 106px;
+	height: 29px;
+	margin-top: 26px;
+	margin-left: 28px;
+	background: url(../img/prev.png);
+}
+.prev:hover {
+	background: url(../img/prev-hover.png);
+}
+.index {
+	width: 119px;
+	height: 31px;
+	margin-top: 26px;
+	margin-left: 245px;
+	background: url(../img/index.png);
+}
+.index:hover {
+	background: url(../img/index-hover.png);
+}
+.next{
+	width: 106px;
+	height: 29px;
+	margin-top: 26px;
+	margin-left: 222px;
+	background: url(../img/next.png);
+}
+.next:hover {
+	background: url(../img/next-hover.png);
+}
