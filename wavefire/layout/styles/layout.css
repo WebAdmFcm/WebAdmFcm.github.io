@@ -314,6 +314,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#109555;}
 #searchform:hover{color:#109555;}
 #searchform input{color:#FFFFFF; background:#57ab81;}
 #searchform button{color:#FFFFFF; background:transparent;}
+#searchform input::-webkit-input-placeholder {color: #FFFFFF;}
+#searchform input::-moz-placeholder {color: #FFFFFF;}
+
+#searchform placeholder{color:rgba(255,255,255,.5);}
 
 
 /* Page Intro */
@@ -347,7 +351,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#109555;}
 /* Navigation */
 #mainav{}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#add6c2; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#add6c2; background-color:#57ab81;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(16,148,82,.5);/* #109555 */ border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#add6c2; background-color:#109555;}
 #mainav form select{color:#474747; background-color:#FFFFFF;}
