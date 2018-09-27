@@ -1,15 +1,7 @@
 @charset "utf-8";
-/*
-Template Name: Wavefire
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
-File: Layout CSS
-*/
 
 @import url("fontawesome-free/css/fontawesome-all.min.css");
+@import url("http://use.fontawesome.com/releases/v5.0.9/css/all.css");
 @import url("framework.css");
 
 /* Rows
@@ -280,7 +272,7 @@ label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#109555;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.85);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
@@ -352,7 +344,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#109555;}
 #mainav{}
 #mainav li a{color:inherit;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#add6c2; background-color:#57ab81;}
-#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(16,148,82,.5);/* #109555 */ border-color:rgba(0,0,0,.6);}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(16,148,82,.8);/* #109555 */ border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#add6c2; background-color:#109555;}
 #mainav form select{color:#474747; background-color:#FFFFFF;}
 
